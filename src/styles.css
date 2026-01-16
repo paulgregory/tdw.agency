@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dark-teal: #0B4648;
+  --font-sans: "Poppins", sans-serif;
+  --animate-fadein: fadein 3s ease-in-out forwards;
+  @keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+}
