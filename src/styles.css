@@ -1,7 +1,9 @@
 @import "tailwindcss";
 
 @theme {
+  --color-turquoise: #30E8B0;
   --color-dark-teal: #0B4648;
+  --color-near-black: #151D1E;
   --font-sans: "Poppins", sans-serif;
   --animate-fadein: fadein 3s ease-in-out forwards;
   @keyframes fadein {
@@ -11,5 +13,25 @@
     50% {
       opacity: 1;
     }
+  }
+}
+
+.decorate-underline {
+  display: inline-block;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 100%;
+    max-width: 350px;
+    aspect-ratio: 1075/221;
+    background-image: url(../img/underline-turquoise.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transform: translate(-50% , 100%);
   }
 }
