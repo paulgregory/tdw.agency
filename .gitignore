@@ -1,1 +1,5 @@
+# Ignore NPM dependencies
 node_modules
+
+# Ignore Mac files
+.DS_Store

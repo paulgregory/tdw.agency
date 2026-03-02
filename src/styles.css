@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  --color-turquoise: #30E8B0;
+  --color-turquoise: #40F2BC;
   --color-dark-teal: #0B4648;
   --color-near-black: #151D1E;
   --font-sans: "Poppins", sans-serif;
