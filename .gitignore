@@ -3,3 +3,7 @@ node_modules
 
 # Ignore Mac files
 .DS_Store
+
+# Ignore email templates for specific people
+templates/email-signature-paul.html
+templates/email-signature-pat.html
