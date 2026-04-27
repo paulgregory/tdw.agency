@@ -116,6 +116,10 @@ export default function ContactForm() {
                 />
               </div>
 
+              <div className='xl:col-span-2 overflow-hidden'>
+                <CloudflareTurnstile />
+              </div>
+
               <button
                 type='submit'
                 disabled={status === 'loading'}
@@ -123,10 +127,6 @@ export default function ContactForm() {
               >
                 Send enquiry <span className='inline-block ml-2 transition-transform duration-300'>&rarr;</span>
               </button>
-
-              <div className='xl:col-span-2 overflow-hidden'>
-                <CloudflareTurnstile />
-              </div>
 
               {message && (
                 <div className={classNames('p-4 rounded-lg xl:col-span-2', status === 'success' ? 'bg-green-50 text-green-800' : 'bg-red-50 text-red-800')}>

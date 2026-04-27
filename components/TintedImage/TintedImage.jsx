@@ -24,7 +24,7 @@ export function TintedImage({
         alt={alt}
         width={800}
         height={800}
-        className='w-full aspect-video md:aspect-square object-cover mix-blend-multiply'
+        className='w-full aspect-video md:aspect-square object-cover mix-blend-multiply grayscale-50'
       />
     </div>
   )
