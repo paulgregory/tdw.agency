@@ -1,13 +1,13 @@
 export function PackageIcon({ icon, className }) {
   const icons = {
     clarity: (
-      <svg viewBox='0 0 65 67' fill='none' className={className}>
+      <svg viewBox='0 0 65 67' width='65' height='67' fill='none' className={className}>
         <path d='M26.5136 5.74951e-07C41.1597 -0.00300571 53.0351 11.7837 53.0381 26.3264L53.0381 26.7013C53.0407 39.3018 44.1291 49.8371 32.2218 52.4281C30.3866 52.8275 28.4802 53.0381 26.5243 53.0385C11.8782 53.0415 0.00281212 41.2548 -0.000190587 26.7122L-0.000187904 26.3373C-0.000825541 23.1658 0.563252 20.1251 1.59768 17.309C5.30649 7.21216 15.0616 0.00235302 26.5136 5.74951e-07ZM26.5161 12.1845C18.58 12.1862 12.1827 18.5408 12.1843 26.3373L12.1843 26.7095C12.1859 34.5035 18.5858 40.8556 26.5219 40.854C34.4579 40.8524 40.8552 34.4977 40.8536 26.7013L40.8536 26.329C40.852 18.535 34.4521 12.1829 26.5161 12.1845Z' fill='currentColor' fillRule='evenodd' clipRule='evenodd' />
         <path opacity='0.4' d='M62.9595 64.8911C65.3027 62.548 65.3027 58.749 62.9595 56.4059L48.6255 42.0718C46.2823 39.7287 42.4833 39.7287 40.1402 42.0718C37.797 44.415 37.797 48.2139 40.1402 50.5571L54.4742 64.8911C56.8174 67.2343 60.6164 67.2343 62.9595 64.8911Z' fill='currentColor' fillRule='evenodd' clipRule='evenodd' />
       </svg>
     ),
     audit: (
-      <svg viewBox='0 0 70 57' fill='none' className={className}>
+      <svg viewBox='0 0 70 57' width='70' height='57' fill='none' className={className}>
         <rect opacity='0.4' y='45' width='70' height='12' rx='6' fill='currentColor' fillRule='evenodd' clipRule='evenodd'/>
         <rect opacity='0.4' y='23' width='70' height='12' rx='6' fill='currentColor' fillRule='evenodd' clipRule='evenodd'/>
         <rect x='18' y='1' width='52' height='12' rx='6' fill='currentColor' fillRule='evenodd' clipRule='evenodd'/>
@@ -15,7 +15,7 @@ export function PackageIcon({ icon, className }) {
       </svg>
     ),
     partnership: (
-      <svg viewBox='0 0 69 69' fill='none' className={className}>
+      <svg viewBox='0 0 69 69' width='69' height='69' fill='none' className={className}>
         <path d='M34.2837 27.2852C38.1497 27.2844 41.2843 30.3956 41.2851 34.2342L41.2851 34.3332C41.2858 37.6592 38.9335 40.4401 35.7904 41.124C35.306 41.2294 34.8028 41.285 34.2865 41.2852C30.4205 41.2859 27.2859 38.1747 27.2851 34.3361L27.2851 34.2371C27.2849 33.4 27.4338 32.5973 27.7069 31.854C28.6859 29.1889 31.2608 27.2858 34.2837 27.2852ZM34.2843 30.5014C32.1895 30.5018 30.5009 32.1792 30.5013 34.2371L30.5013 34.3354C30.5017 36.3927 32.1911 38.0694 34.2859 38.0689C36.3807 38.0685 38.0693 36.3911 38.0689 34.3332L38.0689 34.2349C38.0685 32.1776 36.3791 30.5009 34.2843 30.5014Z' fill='currentColor' fillRule='evenodd' clipRule='evenodd' />
         <path d='M1.75931 66.8118C-0.583833 64.4686 -0.583833 60.6696 1.75931 58.3265L18.0228 42.063C20.3659 39.7199 24.1649 39.7199 26.508 42.063C28.8512 44.4062 28.8512 48.2052 26.508 50.5483L10.2446 66.8118C7.90145 69.1549 4.10246 69.1549 1.75931 66.8118Z' fill='currentColor' fillRule='evenodd' clipRule='evenodd' />
         <path opacity='0.4' d='M42.064 26.5061C39.7209 24.1629 39.7209 20.364 42.064 18.0208L58.3275 1.75736C60.6706 -0.585786 64.4696 -0.585786 66.8127 1.75736C69.1559 4.1005 69.1559 7.89949 66.8127 10.2426L50.5493 26.5061C48.2061 28.8492 44.4071 28.8492 42.064 26.5061Z' fill='currentColor' fillRule='evenodd' clipRule='evenodd' />
