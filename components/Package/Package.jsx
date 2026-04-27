@@ -21,8 +21,8 @@ export function Package({ number, icon, title, subTitle, intro, whatWeDo, whatYo
         <div className='grid lg:grid-cols-3 gap-8 items-start py-20 md:py-28'>
           <div className='lg:col-span-2 flex flex-col gap-6'>
             <div className='flex items-center gap-5'>
-              <div className={classNames('block aspect-square font-semibold text-3xl w-[54px] lg:w-[70px] text-center flex flex-shrink-0 items-center justify-center', colours[colour])}>
-                <PackageIcon icon={icon} className='p-3 lg:p-4 text-navy' />
+              <div className={classNames('block aspect-square font-semibold text-3xl w-[54px] lg:w-[70px] text-center flex flex-shrink-0 items-center justify-center p-3 lg:p-4', colours[colour])}>
+                <PackageIcon icon={icon} className='w-full h-full block text-navy' />
               </div>
               <div>
                 <h2 className='font-bold text-2xl lg:text-4xl text-navy'>{title}</h2>
