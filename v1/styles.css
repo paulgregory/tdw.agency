@@ -2399,6 +2399,11 @@
       min-height: calc(var(--spacing) * 135);
     }
   }
+  .md\:min-h-\[400px\] {
+    @media (width >= 48rem) {
+      min-height: 400px;
+    }
+  }
   .md\:min-h-\[500px\] {
     @media (width >= 48rem) {
       min-height: 500px;
