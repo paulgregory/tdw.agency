@@ -1,0 +1,123 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@source "../app/**/*.{js,jsx,ts,tsx,mdx}";
+@source "../components/**/*.{js,jsx,ts,tsx,mdx}";
+@source "../.storybook/**/*.{mjs}";
+@config "../tailwind.config.js";
+
+@theme {
+  --color-mint: #40f2bc;
+  --color-navy: #111a55;
+  --color-aqua: #6AD1FA;
+  --color-lavender: #C3A1F8;
+  --color-orange: #F88D26;
+  --color-peach: #FFDFCD;
+  --color-steel: #92A2A2;
+  --color-near-black: #070a22;
+  --color-light-grey: #efefef;
+  --color-grey: #d9d9d9;
+  --color-dark-grey: #92A2A2;
+  --font-sans: 'Poppins', sans-serif;
+  --animate-fadein: fadein 3s ease-in-out forwards;
+  --animate-wipe: wipe 700ms ease-in-out 500ms forwards;
+  @keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  @keyframes wipe {
+    to {
+      width: 100%;
+    }
+  }
+}
+
+/* Container */
+.container {
+  @apply max-w-[100rem] mx-auto px-5 lg:px-10;
+}
+
+/* Custom gradients */
+.hero-shading {
+  background: linear-gradient(
+    -38deg,
+    rgba(7, 10, 34, 0.6) 10%,
+    rgba(7, 10, 34, 0) 32%,
+    rgba(7, 10, 34, 0) 80%,
+    rgba(7, 10, 34, 0.45) 100%
+  );
+}
+
+/* Special effects */
+.decorate-menu-underline {
+  display: inline-block;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 100%;
+    max-width: 74px;
+    aspect-ratio: 74/8;
+    background-image: url(/img/menu-underline-mint.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transform: translate(-50%, 100%);
+  }
+}
+
+.degree-separator {
+  li {
+    &::after {
+      content: '';
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      margin: 0 32px;
+      background-image: url(/img/degree-separator-mint.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
+
+    &:last-child::after {
+      display: none;
+    }
+  }
+}
+
+.degree-separator-small {
+  li {
+    &::after {
+      content: '';
+      display: inline-block;
+      width: 9px;
+      height: 9px;
+      margin: 0 24px;
+      background-image: url(/img/degree-separator-mint.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
+
+    &:last-child::after {
+      display: none;
+    }
+  }
+}
+
+/* Scroll bars */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

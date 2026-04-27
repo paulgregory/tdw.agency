@@ -1,5 +1,10 @@
 # Ignore NPM dependencies
 node_modules
+storybook-static
+.next
+out
+storybook
+debug-storybook.log
 
 # Ignore Mac files
 .DS_Store
