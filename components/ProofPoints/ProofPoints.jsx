@@ -9,7 +9,7 @@ export function ProofPoints({ title, proofPoints = [], linkText, linkUrl, center
       <div className='container'>
         <div className={classNames(
           'flex flex-col gap-12 py-20 md:py-28',
-          centered ? 'items-center' : 'items-start'
+          centered ? 'md:items-center' : 'items-start'
         )}>
           <h2 className='text-3xl lg:text-4xl leading-[1.4] font-bold text-navy'>
             {title}

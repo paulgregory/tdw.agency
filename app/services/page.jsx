@@ -31,7 +31,7 @@ export default function ServicesPage() {
           }
         />
         <div className='relative'>
-          <div className='bg-white border-b border-grey sticky top-0 z-10'>
+          <div className='bg-white border-b border-grey sticky top-0 z-8'>
             <div className='container'>
               <ul className='flex degree-separator-small py-6 [&_a]:text-dark-grey [&_a:hover]:text-near-black [&_a]:transition-colors [&_a]:duration-200 [&_a]:whitespace-nowrap [&_li]:whitespace-nowrap [&_li]:flex-shring-0 overflow-scroll no-scrollbar'>
                 <li><Link href='#strategy-and-architecture'>Technical Strategy &amp; Architecture</Link></li>

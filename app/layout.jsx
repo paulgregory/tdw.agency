@@ -8,8 +8,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang='en' className='scroll-smooth'>
-      <body className='min-h-dvh bg-navy bg-[url(/img/topography.svg)] bg-center bg-no-repeat bg-cover bg-top bg-fixed'>
+    <html lang='en' className='scroll-smooth bg-navy'>
+      <body className='min-h-dvh before:fixed before:inset-0 before:bg-navy before:bg-[url(/img/topography.svg)] before:bg-center before:bg-no-repeat before:bg-cover'>
         <div className='animate-fadein'>
           {children}
         </div>

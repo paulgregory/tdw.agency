@@ -270,6 +270,9 @@
   .z-1 {
     z-index: 1;
   }
+  .z-8 {
+    z-index: 8;
+  }
   .z-10 {
     z-index: 10;
   }
@@ -1454,6 +1457,9 @@
   .min-h-40 {
     min-height: calc(var(--spacing) * 40);
   }
+  .min-h-\[400px\] {
+    min-height: 400px;
+  }
   .min-h-\[450px\] {
     min-height: 450px;
   }
@@ -1484,8 +1490,14 @@
   .max-w-\[204px\] {
     max-width: 204px;
   }
+  .max-w-\[250px\] {
+    max-width: 250px;
+  }
   .max-w-\[280px\] {
     max-width: 280px;
+  }
+  .max-w-\[300px\] {
+    max-width: 300px;
   }
   .max-w-\[350px\] {
     max-width: 350px;
@@ -2105,6 +2117,48 @@
     --tw-prose-th-borders: var(--color-grey);
     --tw-prose-td-borders: var(--color-grey);
   }
+  .before\:fixed {
+    &::before {
+      content: var(--tw-content);
+      position: fixed;
+    }
+  }
+  .before\:inset-0 {
+    &::before {
+      content: var(--tw-content);
+      inset: calc(var(--spacing) * 0);
+    }
+  }
+  .before\:bg-navy {
+    &::before {
+      content: var(--tw-content);
+      background-color: var(--color-navy);
+    }
+  }
+  .before\:bg-\[url\(\/img\/topography\.svg\)\] {
+    &::before {
+      content: var(--tw-content);
+      background-image: url(/img/topography.svg);
+    }
+  }
+  .before\:bg-cover {
+    &::before {
+      content: var(--tw-content);
+      background-size: cover;
+    }
+  }
+  .before\:bg-center {
+    &::before {
+      content: var(--tw-content);
+      background-position: center;
+    }
+  }
+  .before\:bg-no-repeat {
+    &::before {
+      content: var(--tw-content);
+      background-repeat: no-repeat;
+    }
+  }
   .last\:border-0 {
     &:last-child {
       border-style: var(--tw-border-style);
@@ -2177,6 +2231,11 @@
   .sm\:inline {
     @media (width >= 40rem) {
       display: inline;
+    }
+  }
+  .sm\:min-h-\[350px\] {
+    @media (width >= 40rem) {
+      min-height: 350px;
     }
   }
   .sm\:min-h-\[400px\] {
@@ -2373,6 +2432,11 @@
   .md\:flex-row {
     @media (width >= 48rem) {
       flex-direction: row;
+    }
+  }
+  .md\:items-center {
+    @media (width >= 48rem) {
+      align-items: center;
     }
   }
   .md\:items-end {
@@ -2919,6 +2983,11 @@
       line-height: calc(var(--spacing) * 7);
     }
   }
+  .xl\:col-span-1 {
+    @media (width >= 80rem) {
+      grid-column: span 1 / span 1;
+    }
+  }
   .xl\:col-span-2 {
     @media (width >= 80rem) {
       grid-column: span 2 / span 2;
@@ -2937,6 +3006,11 @@
   .xl\:min-h-175 {
     @media (width >= 80rem) {
       min-height: calc(var(--spacing) * 175);
+    }
+  }
+  .xl\:max-w-\[calc\(100\%-100px\)\] {
+    @media (width >= 80rem) {
+      max-width: calc(100% - 100px);
     }
   }
   .xl\:grid-cols-2 {
@@ -3422,6 +3496,11 @@
   syntax: "*";
   inherits: false;
 }
+@property --tw-content {
+  syntax: "*";
+  initial-value: "";
+  inherits: false;
+}
 @keyframes fadein {
   0% {
     opacity: 0;
@@ -3475,6 +3554,7 @@
       --tw-drop-shadow-size: initial;
       --tw-duration: initial;
       --tw-ease: initial;
+      --tw-content: "";
     }
   }
 }
