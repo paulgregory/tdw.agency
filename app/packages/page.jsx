@@ -8,7 +8,7 @@ import { Package } from '../../components/Package/Package'
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Our consulting packages \\\\ Two Degrees West',
+  title: 'Consulting packages \\\\ Two Degrees West',
   description:
     'We help ambitious organisations turn complex digital ambitions into clear, scalable products. Bringing senior expertise, structured thinking and long-term perspective to every engagement.',
 }
