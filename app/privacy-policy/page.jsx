@@ -11,7 +11,7 @@ import { TwoColumn } from '../../components/TwoColumn/TwoColumn'
 export const metadata = {
   title: 'Privacy policy \\\\ Two Degrees West',
   description:
-    'Learn more about Two Degrees West and how we help teams deliver clear, scalable digital products.',
+    'We help ambitious organisations turn complex digital ambitions into clear, scalable products. Bringing senior expertise, structured thinking and long-term perspective to every engagement.',
 }
 
 export default function PrivacyPolicyPage() {

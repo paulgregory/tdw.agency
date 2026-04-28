@@ -8,7 +8,7 @@ import ContactForm from '../../components/ContactForm/ContactForm'
 export const metadata = {
   title: 'Contact us \\\\ Two Degrees West',
   description:
-    'Learn more about Two Degrees West and how we help teams deliver clear, scalable digital products.',
+    'We help ambitious organisations turn complex digital ambitions into clear, scalable products. Bringing senior expertise, structured thinking and long-term perspective to every engagement.',
 }
 
 export default function ContactUsPage() {

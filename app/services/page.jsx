@@ -12,7 +12,7 @@ import Link from 'next/link'
 import { Banner } from '../../components/Banner/Banner'
 
 export const metadata = {
-  title: 'Our core services \\\\ Two Degrees West',
+  title: 'Core services \\\\ Two Degrees West',
   description:
     'We help ambitious organisations turn complex digital ambitions into clear, scalable products. Bringing senior expertise, structured thinking and long-term perspective to every engagement.',
 }
@@ -58,9 +58,9 @@ export default function ServicesPage() {
             asideMobileFirst={true}
           />
           <Banner
-            title={<><Underline colour='mint'>Explore our packages</Underline></>}
+            title={<><Underline colour='mint'>TDW packages</Underline></>}
             body={<p className='lg:text-xl'>Clear, productised engagements that reduce risk and create momentum.</p>}
-            linkText='TDW packages'
+            linkText='Consulting packages'
             linkUrl='/packages'
             className='bg-white'
           />
