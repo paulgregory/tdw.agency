@@ -30,6 +30,14 @@ export default function ContactForm() {
         setStatus('success');
         setMessage('Thank you for your enquiry. We\'ll be in touch.');
         form.reset();
+
+        // Record Data Layer event for successful form submission
+        if (typeof window !== "undefined") {
+          window.dataLayer = window.dataLayer || []
+          window.dataLayer.push({
+            event: 'contact_form_submitted'
+          })
+        }
       } else {
         setStatus('error');
         setMessage(result.message || 'Sorry, there was an error. Please try again or send us an email.');
