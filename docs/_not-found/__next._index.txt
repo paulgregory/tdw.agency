@@ -1,5 +1,6 @@
 1:"$Sreact.fragment"
-2:I[7121,[],""]
-3:I[4581,[],""]
+2:I[285,["177","static/chunks/app/layout-97eaee621cbe4913.js"],"GoogleTagManager"]
+3:I[7121,[],""]
+4:I[4581,[],""]
 :HL["/_next/static/css/65860f83919ee6a6.css","style"]
-0:{"rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/65860f83919ee6a6.css","precedence":"next"}]],["$","html",null,{"lang":"en","className":"scroll-smooth bg-navy","children":["$","body",null,{"className":"min-h-dvh before:fixed before:inset-0 before:bg-navy before:bg-[url(/img/topography.svg)] before:bg-center before:bg-no-repeat before:bg-cover","children":["$","div",null,{"className":"animate-fadein","children":["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]}]}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"tHyEZGOcBvV38K-2Awlqh"}
+0:{"rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/65860f83919ee6a6.css","precedence":"next"}]],["$","html",null,{"lang":"en","className":"scroll-smooth bg-navy","children":[["$","$L2",null,{"gtmId":"GTM-5WX37LD6"}],["$","body",null,{"className":"min-h-dvh before:fixed before:inset-0 before:bg-navy before:bg-[url(/img/topography.svg)] before:bg-center before:bg-no-repeat before:bg-cover","children":["$","div",null,{"className":"animate-fadein","children":["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}]}]}]}]]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"oh5bqmTZnHf20Yqupvz8q"}
