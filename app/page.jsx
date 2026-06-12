@@ -58,10 +58,10 @@ export default function HomePage() {
                 image='/img/design-ux.jpg'
               />
               <ImageCard
-                label={<>Development &<br /> Delivery</>}
-                href='/services#development-and-delivery'
+                label={<>Data &<br /> Growth Intelligence</>}
+                href='/services#data-and-growth-intelligence'
                 colour='lavender'
-                image='/img/development.jpg'
+                image='/img/data-growth.jpg'
               />
             </div>
           }

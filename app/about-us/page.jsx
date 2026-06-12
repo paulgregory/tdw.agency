@@ -37,7 +37,7 @@ export default function AboutUsPage() {
           body={
             <>
               <p>We're a senior-led independent consultancy working closely with brands to deliver ambitious, scalable digital platforms. We combine human insight and experience with thoughtfully applied AI, bringing structured thinking and a long-term perspective to every engagement.</p>
-              <p>The clients we work with value our experience across <Link href='/services#strategy-and-architecture'>technical strategy & architecture</Link>, <Link href='/services#design-and-experience'>design & user experience</Link>, and <Link href='/services#development-and-delivery'>development & project delivery</Link>.</p>
+              <p>The clients we work with value our experience across <Link href='/services#strategy-and-architecture'>technical strategy & architecture</Link>, <Link href='/services#design-and-experience'>design & user experience</Link>, and <Link href='/services#data-and-growth-intelligence'>data & growth intelligence</Link>.</p>
               <p>Our <Link href='/packages'>consulting offer</Link> is designed to meet the varied needs of digital teams who are shaping a new initiative or are looking for ways to improve and maintain an existing platform.</p>
             </>
           }
