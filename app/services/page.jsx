@@ -36,7 +36,7 @@ export default function ServicesPage() {
               <ul className='flex degree-separator-small py-6 [&_a]:text-dark-grey [&_a:hover]:text-near-black [&_a]:transition-colors [&_a]:duration-200 [&_a]:whitespace-nowrap [&_li]:whitespace-nowrap [&_li]:flex-shring-0 overflow-scroll no-scrollbar'>
                 <li><Link href='#strategy-and-architecture'>Technical Strategy &amp; Architecture</Link></li>
                 <li><Link href='#design-and-experience'>Product Design &amp; Experience</Link></li>
-                <li><Link href='#development-and-delivery'>Development &amp; Delivery</Link></li>
+                <li><Link href='#data-and-growth-intelligence'>Data &amp; Growth Intelligence</Link></li>
               </ul>
             </div>
           </div>
@@ -50,6 +50,8 @@ export default function ServicesPage() {
                 <p><strong>Technical discovery & validation</strong> that challenges assumptions, reduces risk and ensures delivery starts on solid foundations.</p>
                 <p><strong>Solutions architecture</strong> that designs scalable foundations for growth, not short-term fixes.</p>
                 <p><strong>Technical specifications & scopes</strong> that align stakeholders, reduce rework and prevent over-engineering.</p>
+                <p><strong>Technical leadership</strong> with senior engineers providing clear governance, decision-making and accountability throughout.</p>
+                <p><strong>Rapid prototyping</strong> with AI-assistance to validate ideas quickly and add confidence to the development phase.</p>
               </>
             }
             aside={
@@ -84,19 +86,19 @@ export default function ServicesPage() {
           />
           <Divider />
           <TwoColumn
-            id='development-and-delivery'
+            id='data-and-growth-intelligence'
             className='scroll-mt-[72px] overflow-hidden'
-            title={<>Development &amp; <Burst colour='lavender'>Delivery</Burst></>}
+            title={<>Data &amp; <Burst colour='lavender'>Growth Intelligence</Burst></>}
             body={
               <>
-                <p>Senior-led delivery of complex digital products, ensuring quality, predictability and scalability from start to finish.</p>
-                <p><strong>Technical leadership</strong> with senior engineers providing clear governance, decision-making and accountability throughout.</p>
-                <p><strong>Platform development</strong> that enables growth through scalable, resilient platforms built to evolve over time.</p>
-                <p><strong>Performance, SEO &amp; analytics</strong> embedded from day one, ensuring products perform, are discoverable and improve over time.</p>
+                <p>We turn customer data, analytics, experimentation and AI into actionable insights that improve customer experience, increase conversion and accelerate growth.</p>
+                <p><strong>CRO &amp; experimentation</strong>; we identify opportunities, test improvements, and optimise customer journeys to increase conversion.</p>
+                <p><strong>Insights &amp; analytics</strong> that measure performance of your digital product and drive improvement.</p>
+                <p><strong>AI &amp; personalisation</strong> employed to improve experiences, boost efficiency, and drive growth.</p>
               </>
             }
             aside={
-              <TintedImage image='/img/development.jpg' alt='Platform Development' colour='lavender' />
+              <TintedImage image='/img/data-growth.jpg' alt='Data and growth intelligence' colour='lavender' />
             }
             asideMobileFirst={true}
           />

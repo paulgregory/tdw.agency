@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang='en' className='scroll-smooth bg-navy'>
       <GoogleTagManager gtmId='GTM-5WX37LD6' />
-      <body className='min-h-dvh before:fixed before:inset-0 before:bg-navy before:bg-[url(/img/topography.svg)] before:bg-center before:bg-no-repeat before:bg-cover'>
+      <body className='min-h-dvh before:fixed before:inset-0 before:bg-navy before:bg-[url(/img/topography.svg)] before:bg-center before:bg-no-repeat before:bg-cover text-white'>
         <div className='animate-fadein'>
           {children}
         </div>

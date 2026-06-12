@@ -1,10 +1,10 @@
 import { createReadStream, existsSync, statSync } from 'node:fs'
-import { extname, join, normalize } from 'node:path'
+import { extname, join, normalize, resolve } from 'node:path'
 import { createServer } from 'node:http'
 
 const HOST = process.env.HOST ?? '127.0.0.1'
 const PORT = Number(process.env.PORT ?? 3000)
-const ROOT = process.cwd()
+const ROOT = resolve(process.cwd(), process.env.STATIC_ROOT ?? 'docs')
 
 const MIME_TYPES = {
   '.css': 'text/css; charset=utf-8',
