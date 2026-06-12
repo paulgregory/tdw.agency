@@ -32,7 +32,7 @@ export default function ServicesPage() {
               <ul className='flex degree-separator-small py-6 [&_a]:text-dark-grey [&_a:hover]:text-near-black [&_a]:transition-colors [&_a]:duration-200 [&_a]:whitespace-nowrap [&_li]:whitespace-nowrap [&_li]:flex-shring-0 overflow-scroll no-scrollbar'>
                 <li><Link href='#platform-audit'>01 - Platform Audit</Link></li>
                 <li><Link href='#clarity-sprint'>02 - Clarity Sprint</Link></li>
-                <li><Link href='#delivery-partnership'>03 - Delivery Partnership</Link></li>
+                <li><Link href='#growth-partnership'>03 - Growth Intelligence Partnership</Link></li>
               </ul>
             </div>
           </div>
@@ -156,21 +156,20 @@ export default function ServicesPage() {
           />
 
           <Package
-            id='delivery-partnership'
+            id='growth-partnership'
             colour='mint'
             icon='partnership'
-            title='Delivery Partnership'
-            subTitle='Build and evolve'
-            intro='Ongoing collaboration for organisations that need senior technical leadership, UX collaboration and delivery capability.'
+            title='Growth Intelligence Partnership'
+            subTitle='Optimise and grow'
+            intro='Ongoing partnership that helps organisations measure performance, understand customer behaviour and continuously improve digital experience through data, experimentation and AI. '
             whatWeDo={
               (
                 <>
-                  <p>Ongoing collaboration across product, UX and development.</p>
                   <ul>
-                    <li>Solutions architecture and technical leadership.</li>
-                    <li>UX collaboration and front-end development.</li>
-                    <li>Platform governance.</li>
-                    <li>Continuous improvement.</li>
+                    <li>Establish analytics and measurement frameworks.</li>
+                    <li>Identify opportunities through customer insight.</li>
+                    <li>Run CRO and experimentation programmes.</li>
+                    <li>Introduce AI and personalisation initiatives.</li>
                   </ul>
                 </>
               )
@@ -179,10 +178,10 @@ export default function ServicesPage() {
               (
                 <>
                   <ul>
-                    <li>Senior technical leadership guiding platform evolution.</li>
-                    <li>Consistent UX and front-end development practices.</li>
-                    <li>Reliable delivery across complex digital initiatives.</li>
-                    <li>A scalable platform that improves over time.</li>
+                    <li>A prioritised optimisation roadmap.</li>
+                    <li>Regular insight and performance reviews.</li>
+                    <li>Continuous testing and experimentation.</li>
+                    <li>Clear recommendations backed by data.</li>
                   </ul>
                 </>
               )
@@ -190,8 +189,8 @@ export default function ServicesPage() {
             whyItMatters={
               (
                 <>
-                  <p>Digital initiatives often stall between vision and delivery due to unclear scope, competing priorities and technical uncertainty.</p>
-                  <p>The Clarity Sprint resolves these risks quickly, aligning stakeholders and defining the right technical direction before investment.</p>
+                  <p>Digital initiatives often plateau following delivery due to lack of a structured growth strategy or the absence of data-driven insights.</p>
+                  <p>A <strong>Growth Intelligence Partnership</strong> engages us to provide continuous support for sustained growth and improvement of your digital platform.</p>
                 </>
               )
             }
@@ -199,16 +198,17 @@ export default function ServicesPage() {
               (
                 <>
                   <ul>
-                    <li>Organisations running long-term digital platforms.</li>
-                    <li>Multi-agency delivery environments.</li>
-                    <li>Teams needing senior technical leadership and partner support.</li>
+                    <li>Where the performance of your digital product has plateaued.</li>
+                    <li>For teams that lack actionable insight.</li>
+                    <li>Optimisation effort is reactive rather than structured.</li>
+                    <li>AI opportunities are unclear or unvalidated.</li>
                   </ul>
                 </>
               )
             }
             duration={
               (
-                <p>A delivery partnership is built for the <strong>long-term</strong> support of your team to grow your platform.</p>
+                <p>A growth intelligence partnership is built for the <strong>long-term</strong> support of your team to grow your platform.</p>
               )
             }
             buttonLabel="Let's chat"

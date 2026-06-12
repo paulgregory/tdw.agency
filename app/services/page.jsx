@@ -50,7 +50,6 @@ export default function ServicesPage() {
                 <p><strong>Technical discovery & validation</strong> that challenges assumptions, reduces risk and ensures delivery starts on solid foundations.</p>
                 <p><strong>Solutions architecture</strong> that designs scalable foundations for growth, not short-term fixes.</p>
                 <p><strong>Technical specifications & scopes</strong> that align stakeholders, reduce rework and prevent over-engineering.</p>
-                <p><strong>Technical leadership</strong> with senior engineers providing clear governance, decision-making and accountability throughout.</p>
                 <p><strong>Rapid prototyping</strong> with AI-assistance to validate ideas quickly and add confidence to the development phase.</p>
               </>
             }
